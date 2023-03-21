@@ -1,12 +1,13 @@
 #include <unistd.h>
 
-/*
+/**
  * main - Entry point
  *
  * Description: printing output
  *
  * Return: 1 (Fail)
  */
+
 
 int main(void)
 {
