@@ -8,7 +8,7 @@
  * Return:0-success, non-zero-fail.
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	if (argc == 2)
 	{
