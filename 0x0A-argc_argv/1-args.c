@@ -9,8 +9,8 @@
  * Return: Always 0 (Success)
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("%d\n", argc -1); //subtrack 1 to exclude program name as an argument
+	printf("%d\n", argc - 1); //subtrack 1 to exclude program name as an argument
 	return (0);
 }
