@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_stdup - return a pointer to a newly allocated space in memory
+ * *_strdup - return a pointer to a newly allocated space in memory
  * which contains a copy of a string given as a parameter.
  * @str: string
  * Return: 0
@@ -15,14 +15,16 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (; str[size] != '\0'; size ++)
+	for (; str[size] != '\0'; size++)
 	;
 
 	/*+1 on the size puts the end of string character*/
-	m = malloc(size * sizeof(*str) +1);
+	m = malloc(size * sizeof(*str) + 1);
 
 	if (m == 0)
+	{
 		return (NULL);
+	}
 	else
 	{
 		for (; i < size; i++)
