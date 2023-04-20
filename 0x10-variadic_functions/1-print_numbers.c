@@ -4,8 +4,8 @@
 /**
  * print_numbers - prints numbers with separators.
  * @separator: is the string separator
- * @n: the number of argumens
- * 
+ * @n: the number of arguments
+ *
  * Return: 0
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
